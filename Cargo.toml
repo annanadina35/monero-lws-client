@@ -1,0 +1,14 @@
+[package]
+build = "build.rs"
+name = "monero-lws-client"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vault Labs"]
+license = "MIT"
+description = "Monero light-wallet-server client shell — stub daemon."
+readme = "README.md"
+repository = "https://github.com/vaultlabs/monero-lws-client"
+
+[[bin]]
+name = "monero-lws-client"
+path = "src/main.rs"
